@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parang-Read-Me</title>
+    <link rel="icon" type="image/png" href="21'/readymade covers/favicon2.png">
+    <style>
+        body {
+            background-color: rgb(177, 202, 255);
+        }
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .image {
+            text-align: center;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+
+        .go-back {
+            width: 360px;
+            height: 120px;
+
+            color: black;
+            text-align: center;
+            background-color: azure;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 60px;
+            cursor: pointer;
+        }
+
+        .go-back-border {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+
+            margin-bottom: 500px;
+            margin-top: -40px;
+        }
+    </style>
+
+    <script>
+        function back() {
+            let url = window.location.href;
+            let new_url = url.split('index.html')[0] + window.close();
+            window.location.href = window.close;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="image">
+        <img src="21'/readymade covers/parang-read-me.jpg" class="read" alt="Parang Read Me">
+    </div>
+
+    <div class="go-back-border">
+        <button onclick="back();" class="go-back">확인</button>
+    </div>
+
+</body>
+
+</html>
